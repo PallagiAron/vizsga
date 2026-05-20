@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    background-color: #1a3c34;
+    /*background-image: url("kezi_terkep.jpg");*/
+    font-size: 3em;
+    color: #fff;
+    text-decoration: underline overline;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    padding: 1.25rem 1rem;
+    box-sizing: border-box;
+}
+
+div.kek{
+    background-color: #fde8d4;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+}
+
+h2{
+    font-weight: bold;
+    color: #1a3c34;
+}
+
+#bevezeto{
+    width: 100%;
+}
+
+main{
+    width: 1600px;
+    margin: auto;
+}
+
+.card{
+    width:500px;
+    padding: 10px;
+}
+
+
+@media (max-width: 800px){
+    main{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+.card img{
+    width: 480px;
+    display: block;
+    margin: auto;
+}
+
+img:hover{
+    /*animation: rotate 3s linear;*/
+     transform: rotateY(360deg);
+     border: 1px solid black;
+}
+
+img {
+  transition: transform 3s ease;
+}
+
+
+@keyframes forog{
+    100% { transform: rotate(360deg); }
+}
+
+.szamolas{
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+}
+
+a:any-link{
+    color: rgb(54, 0, 88);
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+.szamolas{
+    background-color: #fde8d4;
+}
+
+.flex {
+    display: flex;				
+}	
+.wrap {
+    flex-wrap: wrap ;
+}
